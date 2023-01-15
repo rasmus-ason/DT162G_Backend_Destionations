@@ -41,8 +41,6 @@ const getDestination = async (req, res) => {
 // create new destination
 const createDestination = async (req, res) => {
 
-   
-
     const {destinationName, country, category, best_months , ratings} = req.body 
 
 

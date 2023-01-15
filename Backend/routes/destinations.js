@@ -12,19 +12,19 @@ const {
 
 const router = express.Router()
 
-//Get all workouts
+//Get all destinations
 router.get('/', getDestinations)
 
-//Get a single workout
+//Get a single destination
 router.get('/:id', getDestination)
 
-//Post a workout, gå in i controllers och utför funktionen createWorkout
+//Post a destination
 router.post('/', createDestination)
 
-//Delete a workout
+//Delete a destination
 router.delete('/:id', deleteDestination)
 
-//Update a workout
+//Update a destination
 router.patch('/:id', updateDestination)
 
 //Exporterar alla funktioner med router.verb
